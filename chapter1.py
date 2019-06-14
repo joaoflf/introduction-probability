@@ -12,6 +12,6 @@ for i in range(10**4):
 print(win/10**4)
 
 # ---- Birthday problem ----
-k = 23
+k = 59
 prob = 1 - np.prod(np.arange(365 - k + 1, 366), dtype=np.float64) / (365**k)
 print(prob)
